@@ -1,99 +1,68 @@
-<h1>Disk Sanitization Tool (PowerShell)</h1>
+<h1>Java To-Do Manager</h1>
 
 <h2>👨‍💻 Projekt von Jalal Sbai</h2>
 
-Dieses Projekt ist Teil meiner praktischen Übungen während meiner  
-**Umschulung zum Fachinformatiker für Anwendungsentwicklung (IHK)**.
+Dieses Projekt ist eine einfache **To-Do-Listen Anwendung in Java**, die während meiner  
+Umschulung zum **Fachinformatiker für Anwendungsentwicklung (IHK)** entstanden ist.
 
-Der Fokus liegt auf dem Verständnis von **Systemverwaltung, PowerShell-Scripting und Datenträgerverwaltung unter Windows**.
+Die Anwendung ermöglicht es, Aufgaben zu erstellen, zu speichern und zu verwalten.
 
 ---
 
-<h2>📄 Beschreibung</h2>
+<h2>📄 Projektbeschreibung</h2>
 
-Dieses Projekt besteht aus einem einfachen **PowerShell-Skript**, das den Benutzer Schritt für Schritt durch den Prozess des **sicheren Löschens (Disk Sanitization)** eines Datenträgers führt.
+Der To-Do Manager ist ein kleines Konsolenprogramm, das folgende Funktionen bietet:
 
-Das Tool ermöglicht:
+- Aufgaben hinzufügen
+- Aufgaben anzeigen
+- Aufgaben löschen
+- Aufgaben als erledigt markieren
 
-- Auswahl eines angeschlossenen Datenträgers
-- Festlegen der Anzahl der Löschdurchgänge
-- Automatische Erstellung eines Diskpart-Skripts
-- Ausführung des Löschvorgangs über **Diskpart**
+Dieses Projekt dient zum Üben von:
 
-Dabei werden alle Daten auf dem ausgewählten Datenträger überschrieben.
-
-⚠️ Hinweis: Dieser Prozess löscht **alle Daten unwiederbringlich**.
+- Objektorientierter Programmierung (OOP)
+- Java Grundlagen
+- Datenstrukturen
+- Benutzerinteraktion über Konsole
 
 ---
 
 <h2>🛠 Verwendete Technologien</h2>
 
-- **PowerShell**
-- **Diskpart**
+- Java
+- IntelliJ IDEA
+- Git
 
 ---
 
-<h2>💻 Systemumgebung</h2>
-
-- **Windows 10 (21H2)**
-
----
-
-<h2>⚙️ Programmablauf</h2>
+<h2>💻 Programmablauf</h2>
 
 <p align="center">
 
-Starten des Programms: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization"/>
+Start der Anwendung: <br/>
+<img src="https://i.imgur.com/qR9XJgF.png" width="80%">
 
-<br /><br />
+<br/><br/>
 
-Auswahl des Datenträgers: <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization"/>
+Neue Aufgabe erstellen: <br/>
+<img src="https://i.imgur.com/eKqBq9T.png" width="80%">
 
-<br /><br />
+<br/><br/>
 
-Anzahl der Löschdurchgänge festlegen: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization"/>
+Aufgabenliste anzeigen: <br/>
+<img src="https://i.imgur.com/mXx2sWy.png" width="80%">
 
-<br /><br />
+<br/><br/>
 
-Auswahl bestätigen: <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization"/>
-
-<br /><br />
-
-Der Löschvorgang wird ausgeführt (dies kann einige Zeit dauern): <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization"/>
-
-<br /><br />
-
-Vorgang abgeschlossen: <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization"/>
-
-<br /><br />
-
-Der Datenträger wurde erfolgreich bereinigt: <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization"/>
+Aufgabe löschen oder als erledigt markieren: <br/>
+<img src="https://i.imgur.com/Z5bB9G7.png" width="80%">
 
 </p>
 
 ---
 
-<h2>🎯 Ziel des Projekts</h2>
+<h2>📊 Programmstruktur</h2>
 
-Dieses Projekt dient dazu, meine Kenntnisse in folgenden Bereichen zu vertiefen:
+<img src="https://i.imgur.com/6lGkHkN.png" width="80%">
 
-- PowerShell-Scripting
-- Windows-Systemverwaltung
-- Automatisierung von administrativen Aufgaben
-- Arbeiten mit Diskpart
-
----
-
-<h2>📫 Kontakt</h2>
-
-**Jalal Sbai**  
-📍 Köln, Deutschland  
-📧 j.sbai@gmx.de  
-💻 GitHub: https://github.com/Jalal-Sbai
+Beispielstruktur:
