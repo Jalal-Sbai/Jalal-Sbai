@@ -1,67 +1,58 @@
-# 👋 Willkommen auf meinem GitHub-Profil!
+<h1>JWipe - Disk Sanitization</h1>
 
-Mein Name ist **Jalal Sbai** und ich befinde mich aktuell in der  
-**Umschulung zum Fachinformatiker für Anwendungsentwicklung (IHK)** bei der GFN GmbH in Köln 🇩🇪
+ ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
-Ich interessiere mich sehr für Softwareentwicklung und arbeite aktiv daran, meine Kenntnisse in **Java, Python, SQL und Webentwicklung** zu erweitern.
+<h2>Description</h2>
+Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+<br />
 
-🎯 **Im Rahmen meiner Umschulung suche ich aktuell einen Praktikumsplatz im Bereich Softwareentwicklung, um praktische Erfahrung zu sammeln und mein Wissen weiter zu vertiefen.**
 
----
+<h2>Languages and Utilities Used</h2>
 
-## 💼 Über mich
+- <b>PowerShell</b> 
+- <b>Diskpart</b>
 
-- 🎓 Umschulung zum Fachinformatiker für Anwendungsentwicklung (IHK)
-- 💻 Programmierung mit Java, Python und SQL
-- 🌐 Webentwicklung mit HTML und CSS
-- 🔧 Erfahrung mit Git, IntelliJ IDEA und Visual Studio Code
-- 📚 Arbeiten mit objektorientierter Programmierung
-- ⚙️ Grundlagen in Datenbanken und Softwareentwicklung
-- 🤝 Motiviert, lernbereit und teamfähig
+<h2>Environments Used </h2>
 
----
+- <b>Windows 10</b> (21H2)
 
-## 🛠️ Technische Kenntnisse
+<h2>Program walk-through:</h2>
 
-### Programmiersprachen
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=database&logoColor=white)
+<p align="center">
+Launch the utility: <br/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Select the disk:  <br/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Enter the number of passes: <br/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirm your selection:  <br/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Wait for process to complete (may take some time):  <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Sanitization complete:  <br/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
-### Webtechnologien
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
----
-
-## 📊 GitHub Statistiken
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jalal-Sbai&show_icons=true)
-![Top Sprachen](https://github-readme-stats.vercel.app/api/top-langs/?username=Jalal-Sbai&layout=compact)
-
----
-
-## 🌍 Sprachkenntnisse
-
-- Deutsch (C1)
-- Englisch (B2)
-- Französisch (B2)
-- Arabisch (Muttersprache)
-
----
-
-## 📫 Kontakt
-
-- 📧 E-Mail: j.sbai@gmx.de  
-- 📍 Köln, Deutschland  
-- 💻 GitHub: https://github.com/Jalal-Sbai  
-
----
-
-⭐ Vielen Dank für den Besuch meines Profils!  
-Ich freue mich über die Möglichkeit, praktische Erfahrungen als Praktikant im Bereich Softwareentwicklung zu sammeln.
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
